@@ -1,0 +1,12 @@
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\bin\Debug\Conexion.exe.config
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\bin\Debug\Conexion.exe
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\bin\Debug\Conexion.pdb
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\bin\Debug\MySql.Data.dll
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\bin\Debug\Google.Protobuf.dll
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\bin\Debug\MySql.Data.xml
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.Form1.resources
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.Properties.Resources.resources
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.csproj.GenerateResource.Cache
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.exe
+c:\users\daniel\documents\visual studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.pdb
