@@ -7,8 +7,17 @@ namespace Aplicacion_web.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void si_existe_usuario()
         {
+            conexion cn = new conexion();
+            Assert.AreEqual(cn.credenciales("danialjim", "danialjim1234"), true);
+        }
+
+        [TestMethod]
+        public void no_existe_usuario()
+        {
+            conexion cn = new conexion();
+            Assert.AreEqual(cn.credenciales("este usuario", "no existe"), false);
         }
     }
 }
