@@ -16,6 +16,7 @@ namespace Conexion
         public Form1()
         {
             InitializeComponent();
+            textBox2.PasswordChar='*';
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,6 +40,16 @@ namespace Conexion
             }
             
             
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
