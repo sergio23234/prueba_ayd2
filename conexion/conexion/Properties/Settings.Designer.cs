@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace App_Adminsitrador.Properties
+namespace Conexion.Properties
 {
 
 
