@@ -9,7 +9,7 @@ namespace Aplicacion_web.Tests
         [TestMethod]
         public void si_existe_usuario()
         {
-            conexion cn = new conexion();
+            conexion cnn = new conexion();
             Assert.AreEqual(cn.credenciales("danialjim", "danialjim1234"), true);
         }
 
