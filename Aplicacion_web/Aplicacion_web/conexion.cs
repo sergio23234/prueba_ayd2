@@ -14,7 +14,7 @@ namespace Aplicacion_web
 
 
             MySqlConnection conexion = new MySqlConnection("server=35.202.163.254;database=pensum;uid=admin;pwd=1234");
-          
+          prueba error
             
             try
             {
