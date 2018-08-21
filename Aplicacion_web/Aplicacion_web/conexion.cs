@@ -14,14 +14,16 @@ namespace Aplicacion_web
 
 
             MySqlConnection conexion = new MySqlConnection("server=35.202.163.254;database=pensum;uid=admin;pwd=1234");
-          
-            conexion.Open();
-
-            MySqlCommand comando = new MySqlCommand("select nombre from usuario where usuario = '" + usuario + "' and password = '" + password + "';", conexion);
-            MySqlDataReader myreader = comando.ExecuteReader();
-            myreader.Read();
+          prueba error
+            
             try
             {
+                conexion.Open();
+               
+
+                MySqlCommand comando = new MySqlCommand("select nombre from usuario where usuario = '" + usuario + "' and password = '" + password + "';", conexion);
+                MySqlDataReader myreader = comando.ExecuteReader();
+                myreader.Read();
                 String strnombre = myreader["nombre"].ToString();
                 return true;
             }
