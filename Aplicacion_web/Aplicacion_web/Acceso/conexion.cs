@@ -8,17 +8,13 @@ namespace Aplicacion_web
 {
     public class conexion
     {
-        //retorna true si existe y false si no existe
         public Boolean credenciales(String usuario, String password) {
-
-
-
             MySqlConnection conexion = new MySqlConnection("server=35.202.163.254;database=pensum;uid=admin;pwd=1234");
-        //  prueba error
+ 
             
             try
             {
-                conexionll.Open();
+                conexion.Open();
                
 
                 MySqlCommand comando = new MySqlCommand("select nombre from usuario where usuario = '" + usuario + "' and password = '" + password + "';", conexion);
@@ -32,11 +28,6 @@ namespace Aplicacion_web
 
                 return false ;
             }
-
-
-
-
-
             
         } 
 
