@@ -76,6 +76,7 @@
     <Content Include="Logica\Global.asax" />
     <Content Include="Presentacion\login.aspx" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\pruebaayd2 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
