@@ -23,9 +23,6 @@ namespace Aplicacion_web
         {
              Logica.peticion.Responder_Peticion_de_cursos(ref dgv1, txtConsulta.Text);
 
-           
-
-
         }
     }
 }
